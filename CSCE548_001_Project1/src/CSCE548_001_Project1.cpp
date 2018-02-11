@@ -13,7 +13,7 @@
 #include <vector>
 #include <stdio.h>
 #include <stdlib.h>
-//#include "openssl/evp.h"
+#include "openssl/evp.h"
 #include "ReadEnglishDictionary.h"
 
 using namespace std;
