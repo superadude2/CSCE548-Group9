@@ -22,6 +22,7 @@ class ReadEnglishDictionary {
 public:
 	ReadEnglishDictionary();
 	vector<string> getDictionary();
+	vector<string> checkForGoodPlainText(vector<string> plain_texts);
 	virtual ~ReadEnglishDictionary();
 };
 

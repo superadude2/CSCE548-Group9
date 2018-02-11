@@ -7,6 +7,10 @@ CPP_SRCS += \
 ../src/CSCE548_001_Project1.cpp \
 ../src/ReadEnglishDictionary.cpp 
 
+O_SRCS += \
+../src/CSCE548_001_Project1.o \
+../src/ReadEnglishDictionary.o 
+
 OBJS += \
 ./src/CSCE548_001_Project1.o \
 ./src/ReadEnglishDictionary.o 
