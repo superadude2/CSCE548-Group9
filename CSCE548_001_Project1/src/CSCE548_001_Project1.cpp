@@ -68,6 +68,7 @@ int main(int argc, char** argv)
 	cout << "Completed." << endl;
 
 	cout << "Checking for possible valid phrases...";
+
 	vector<string> good_texts = read_dict.checkForGoodPlainText(plain_texts);
 	cout << "Completed." << endl;
 	cout << endl;
