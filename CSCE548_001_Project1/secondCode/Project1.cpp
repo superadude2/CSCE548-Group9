@@ -71,7 +71,6 @@ int do_cryption(FILE *in, FILE *out, int do_encrypt, unsigned char k[], unsigned
 	for( int i = 0; i < 16; i++ )
 		iv[i] = i_v[i];
 	
-	//int something = EVP_CIPHER_CTX_init(ctx);
 	EVP_CIPHER_CTX_init(ctx);
 	EVP_CipherInit_ex(ctx, EVP_aes_128_cbc(), NULL, NULL, NULL, do_encrypt);
 	OPENSSL_assert(EVP_CIPHER_CTX_key_length(ctx) == 16);
