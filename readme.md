@@ -32,7 +32,7 @@ This command will ask you the password you created for encryption:
 C.	Mode 3 using ECB
 1.	Encryption 
 -	 openssl enc -bf-ecb -salt -in plain.txt -out ciphermode3.bin -pass file:password.txt
-this command using ECB mode, pass in a password that created in password.txt with salt option that stronger the encryption
+this command using ECB mode, pass in a password that created in password.txt with salt option that stronger the encryption this is encrypted file looks like:
 ![screen shot 2018-02-12 at 6 27 19 pm](https://user-images.githubusercontent.com/36014195/36125555-6cbbeb70-1022-11e8-8fe3-c357738276d6.png)
 password.txt:
 ![screen shot 2018-02-12 at 6 33 02 pm](https://user-images.githubusercontent.com/36014195/36125747-3d80d112-1023-11e8-82dd-52053dccac73.png)
