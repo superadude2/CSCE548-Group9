@@ -24,7 +24,7 @@ B.	mode 2 using CFB
 -	openssl enc -aes-128-cfb -e -a -in plain.txt -out ciphermode2.bin -p      
      this command encrypt the same plain text file with CFB mode, output will be base64 encoded and will print out salt key and iv. Then it will ask and verify the password you create.
 ![screen shot 2018-02-12 at 5 22 48 pm](https://user-images.githubusercontent.com/36014195/36123893-31ec4b8a-101c-11e8-989b-c8dad68e4cb7.png) 
- Encrypted file looks like: using command vim ciphermode2.bin      
+    Encrypted file looks like: using command vim ciphermode2.bin      
    
     ![screen shot 2018-02-12 at 5 34 23 pm](https://user-images.githubusercontent.com/36014195/36124531-68f37250-101e-11e8-8a60-4256d97ba85a.png)
 
