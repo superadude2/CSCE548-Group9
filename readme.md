@@ -4,7 +4,7 @@ A.	 Mode 1 using CBC
 
 1.	Encryption 
        
-     openssl enc -des-ede-cbc -e -in plain.txt -out cipherbin.bin -k password              
+       openssl enc -des-ede-cbc -e -in plain.txt -out cipherbin.bin -k password              
      this command encrypts a text file with CBC mode and with a password
 
      this is the plain text file
