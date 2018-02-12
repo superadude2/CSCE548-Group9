@@ -5,6 +5,10 @@
 #include <vector>
 #include <stdio.h>
 #include <stdlib.h>
+#include <openssl/evp.h>
+//#include "openssl-1.0.2n/include/openssl/evp.h"
+#include <openssl/conf.h>
+#include <openssl/err.h>
 //#include "openssl/aes.h"
 #include <string.h>
 #include <sstream>
@@ -55,29 +59,110 @@ std::string string_to_hex(const std::string& input)
     }
     return output;
 }
+int do_cryption(FILE *in, FILE *out, int do_encrypt, unsigned char k[], unsigned char i_v[])
+{
+	unsigned char inbuf[1024], outbuf[1024 + EVP_MAX_BLOCK_LENGTH];
+	int inlength, outlength;
+	EVP_CIPHER_CTX *ctx;
+	unsigned char key[16];
+	for( int i = 0; i < 16; i++ )
+		key[i] = k[i];
+	unsigned char iv[16];
+	for( int i = 0; i < 16; i++ )
+		iv[i] = i_v[i];
+	
+	//int something = EVP_CIPHER_CTX_init(ctx);
+	EVP_CIPHER_CTX_init(ctx);
+	EVP_CipherInit_ex(ctx, EVP_aes_128_cbc(), NULL, NULL, NULL, do_encrypt);
+	OPENSSL_assert(EVP_CIPHER_CTX_key_length(ctx) == 16);
+	OPENSSL_assert(EVP_CIPHER_CTX_iv_length(ctx) == 16);
+	
+	EVP_CipherInit_ex(ctx, NULL, NULL, key, iv, do_encrypt);
+	for(;;)
+	{
+		inlength = fread(inbuf, 1, 1024, in);
+		if(inlength <= 0)
+			break;
+		if(!EVP_CipherUpdate(ctx, outbuf, &outlength, inbuf, inlength))
+		{
+			int temp = EVP_CIPHER_CTX_cleanup(ctx);
+			return 0;
+		}
+		fwrite(outbuf, 1, outlength, out);
+	}
+	if(!EVP_CipherFinal_ex(ctx, outbuf, &outlength))
+	{
+		EVP_CIPHER_CTX_cleanup(ctx);
+		return 0;
+	}
+	fwrite(outbuf, 1, outlength, out);
+	
+	EVP_CIPHER_CTX_cleanup(ctx);
+	return 1;
+}
 int keyCount(std::vector<std::string> padDict){
 	bool done = false;
 	int correct = 0;
 	int x = 0;
+	vector<string> possible_valids;
 	while(done == false){
 		if(x == 25142){
 			done = true;
 		}
-		std::string runString = "openssl enc -aes-128-cbc -d -in cipher.txt -out plain.txt -K "+string_to_hex(padDict[x])+" -iv "+string_to_hex("0");
+		cout << padDict[x] << endl;
+		FILE *inFile;
+		char buffer[100];
+		inFile = fopen("plain.txt", "r");
+		if(inFile == NULL)
+		{
+			perror("Error opening plaintext file");
+			return 0;
+		}
+		
+		FILE *outFile;
+		char buffer_2[100];
+		outFile = fopen("cipher.txt","w");
+		if(outFile == NULL)
+		{
+			perror("Error opening cipher file");
+			return 0;
+		}
+		
+		unsigned char key[16];
+		for( int i = 0; i < 16; i++ )
+			key[i] = padDict[x].c_str()[i];
+		//strcpy(key,padDict[x].c_str());
+		
+		unsigned char iv[] = "0000000000000000";
+		
+		int did_encrypt = do_cryption(inFile, outFile, 1, key, iv);
+		//std::string runString = "openssl enc -aes-128-cbc -e -in plain_1.txt -out cipher_1.txt -K "+string_to_hex(padDict[x])+" -iv 0000000000000000";
+		//cout << runString << endl;
 
-		const int rm_err2 = system(runString.c_str());
+		//const int rm_err2 = system(runString.c_str());
 		ifstream file;
-		file.open("plain.txt");
+		file.open("cipher.txt");
 		std::string word;
  		while(file >> word){
- 			if(word == "This" || word == "is"|| word == "top"|| word == "secret."){
- 				correct = x;
+			cout << string_to_hex(word) << endl;
+ 			if(string_to_hex(word).find("20E5") != string::npos ){
+				possible_valids.push_back(std::to_string(x) + " : " + string_to_hex(word) + " : " + word + " : " + std::to_string(word.length()) + " : " + padDict[x]);
+			if(padDict[x].find("median") != string::npos )	
+ 				//correct = x;
  				done = true;
  			}
+			cout << possible_valids.size() << endl;
     	}
 	    x++;
 	    std::cout << x << endl;
 
+	}
+	
+	cout << "Possible Valid Phrases:" << endl;
+	
+	for( int i = 0; i < possible_valids.size(); i++ )
+	{
+		cout << possible_valids.at(i) << endl;
 	}
 	return correct;
 }
