@@ -29,6 +29,7 @@ B.	mode 2 using CFB
 -	 openssl enc -aes-128-cfb -d -a -in ciphermode2.bin -out mode2.txt
 This command will ask you the password you created for encryption:
 ![screen shot 2018-02-12 at 5 39 05 pm](https://user-images.githubusercontent.com/36014195/36124578-8e09cf3a-101e-11e8-807f-7f3685b3653e.png)
+
 C.	Mode 3 using ECB
 1.	Encryption 
 -	openssl enc -bf-ecb -salt -in plain.txt -out ciphermode3.bin -pass file:password.txt
