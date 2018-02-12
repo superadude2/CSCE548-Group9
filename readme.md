@@ -29,11 +29,7 @@ Encrypted file looks like:
 2.	Decryption
 -	openssl enc -aes-128-cfb -d -a -in ciphermode2.bin -out mode2.txt
 This command will ask you the password you created for encryption:
-![screen shot 2018-02-12 at 5 39 05 pm](https://user-images.githubusercontent.com/36014195/36124578-8e09cf3a-101e-11e8-807f-7f3685b3653e.png)
- 
-Decrypted file looks like:
-
-![screen shot 2018-02-12 at 5 40 22 pm](https://user-images.githubusercontent.com/36014195/36124599-a526be08-101e-11e8-8cfc-5803219298bb.png)
+![screen shot 2018-02-12 at 5 39 05 pm](https://user-images.githubusercontent.com/36014195/36124578-8e09cf3a-101e-11e8-807f-7f3685b3653e.png) Decrypted file looks like:
 
 
 
