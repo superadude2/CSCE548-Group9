@@ -25,14 +25,14 @@ B.	mode 2 using CFB
      this command encrypt the same plain text file with CFB mode, output will be base64 encoded and will print out salt key and iv. Then it will ask and verify the password you create.
 ![screen shot 2018-02-12 at 5 22 48 pm](https://user-images.githubusercontent.com/36014195/36123893-31ec4b8a-101c-11e8-989b-c8dad68e4cb7.png) 
 
-Encrypted file looks like:
-![screen shot 2018-02-12 at 5 34 23 pm](https://user-images.githubusercontent.com/36014195/36125088-a10bde5a-1020-11e8-84bc-6b874b82ff36.png)
+   Encrypted file looks like:
+   ![screen shot 2018-02-12 at 5 34 23 pm](https://user-images.githubusercontent.com/36014195/36125088-a10bde5a-1020-11e8-84bc-6b874b82ff36.png)
 
 2.	Decryption
 -	openssl enc -aes-128-cfb -d -a -in ciphermode2.bin -out mode2.txt
 This command will ask you the password you created for encryption:
 ![screen shot 2018-02-12 at 5 39 05 pm](https://user-images.githubusercontent.com/36014195/36124578-8e09cf3a-101e-11e8-807f-7f3685b3653e.png)
-Decrypted file looks like:
+    Decrypted file looks like:
 
 
 
