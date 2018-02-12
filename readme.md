@@ -14,9 +14,8 @@ this is the plain text file
 
 2.	Decryption
 -	openssl enc -des-ede-cbc -d -in cipherbin.bin -out cipherout.txt -k password
-
 this command decrypts bin file with CBC mode and passed in the password
-this is what decrypted file looks like: 
+this is what decrypted file looks like:  
 ![screen shot 2018-02-12 at 4 46 37 pm](https://user-images.githubusercontent.com/36014195/36122563-d7567e6a-1017-11e8-970c-3f8bff4e66e8.png)
 
 B.	mode 2 using CFB
