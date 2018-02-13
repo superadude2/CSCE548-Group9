@@ -46,6 +46,8 @@ password.txt:
 - this is decrypted file looks like:     
 ![screen shot 2018-02-12 at 6 58 24 pm](https://user-images.githubusercontent.com/36014195/36126503-c99026e6-1026-11e8-8585-b49ee0479363.png)
 
+Task 2: Encryption Mode - ECB vs. CBC
+----------------------------------------------------------------------------------------------------------------------------
 
 
 
