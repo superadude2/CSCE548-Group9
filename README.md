@@ -112,3 +112,15 @@ Then change it into "AD".
 the content of corrupted file:
 ![screen shot 2018-02-13 at 11 19 29 am](https://github.com/superadude2/CSCE548-Group9/blob/master/images/Screen%20Shot%202018-02-13%20at%2011.19.29%20AM.png)
 Observation: one place has been corrupted. 
+
+Task 4: Programming using the Crypto Library
+----------------------------------------------------------------------------------------------------------------------------
+
+1. cd to the directory "CSCE548_001-Project1/Final"
+	
+	- cd /.../CSCE548_001-Project1/Final
+	(Note: "..." refers to the directory between your current directory and the "CSCE548_001-Project1/Final" directory)
+	
+2. Run the following command:
+
+	- make all
