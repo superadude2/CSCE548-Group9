@@ -53,15 +53,16 @@ For this task, download pic_original.bmp for testing.
 A.	 ECB mode
 1.	 Encryption
 -      openssl enc -aes-128-ecb -in pic_original.bmp -out ecb.bmp
-			this command uses AES-128 cipher, will ask to create a password.
-			![screen shot 2018-02-13 at 11 17 23 am](https://raw.githubusercontent.com/superadude2/CSCE548-Group9/master/images/Screen%20Shot%202018-02-13%20at%2011.17.23%20AM.png)
-			because its header is bogus, have to use hex editor to replace the first 54 bytes with that of the original picture pic_original.bmp
-			should open up both original and encrypted hex editor by using ghex pic_original.bmp and ghex ecb.bmp
-			the first 54 bytes were highlighted.
-			![screen shot 2018-02-13 at 11 17 33 am](https://raw.githubusercontent.com/superadude2/CSCE548-Group9/master/images/Screen%20Shot%202018-02-13%20at%2011.17.33%20AM.png)
+		this command uses AES-128 cipher, will ask to create a password.
+		![screen shot 2018-02-13 at 11 17 23 am](https://raw.githubusercontent.com/superadude2/CSCE548-Group9/master/images/Screen%20Shot%202018-02-13%20at%2011.17.23%20AM.png)
+		because its header is bogus, have to use hex editor to replace the first 54 bytes with that of the original picture pic_original.bmp
+		should open up both original and encrypted hex editor by using ghex pic_original.bmp and ghex ecb.bmp
+		the first 54 bytes were highlighted.
+		![screen shot 2018-02-13 at 11 17 33 am](https://raw.githubusercontent.com/superadude2/CSCE548-Group9/master/images/Screen%20Shot%202018-02-13%20at%2011.17.33%20AM.png)
 2.	 Display image
 	Should have something like this:
 	![screen shot 2018-02-13 at 11 17 44 am](https://raw.githubusercontent.com/superadude2/CSCE548-Group9/master/images/Screen%20Shot%202018-02-13%20at%2011.17.44%20AM.png)
+
 B.	 Mode CBC
 1.	 Encryption
 -      openssl enc -aes-128-cbc -in pic_original.bmp -out cbc.bmp 
