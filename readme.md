@@ -116,11 +116,11 @@ Observation: one place has been corrupted.
 Task 4: Programming using the Crypto Library
 ----------------------------------------------------------------------------------------------------------------------------
 
-1. cd to the directory "CSCE548_001-Project1/Final"
-	
-	- cd /.../CSCE548_001-Project1/Final
-	(Note: "..." refers to the directory between your current directory and the "CSCE548_001-Project1/Final" directory)
+1. In the command terminal, cd to the directory "CSCE548_001-Project1/Final"
+
+		cd /.../CSCE548_001-Project1/Final
+		(Note: "..." refers to the directory between your current directory and the "CSCE548_001-Project1/Final" directory)
 	
 2. Run the following command:
 
-	- make all
+		make all
