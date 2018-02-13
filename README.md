@@ -49,6 +49,7 @@ password.txt:
 Task 2: Encryption Mode - ECB vs. CBC
 ----------------------------------------------------------------------------------------------------------------------------
 For this task, download pic_original.bmp for testing.
+
 A.	 ECB mode
 1.	 Encryption
 -      openssl enc -aes-128-ecb -in pic_original.bmp -out ecb.bmp
