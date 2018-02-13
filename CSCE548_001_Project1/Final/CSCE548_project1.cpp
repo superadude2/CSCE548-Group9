@@ -18,19 +18,21 @@ using namespace std;
 //method to return vector of strings to use as dictionary
 std::vector<std::string> getDictionary(){
 	int count = 0;
-	std::string word;
-	std::vector<std::string> dictionary;
-    ifstream myfile("words.txt");
+	std::string word; //current word in dictionary file "words.txt"
+	std::vector<std::string> dictionary; //dictionary - vector of strings (to be populated)
+    ifstream myfile("words.txt"); //file stream for reading "words.txt"
 
+	//reading "words.txt"
     if(myfile.good()){
         while(getline(myfile,word)){
-            dictionary.push_back(word);
+            dictionary.push_back(word); //populate dictionary
         }
     }
     else
         cout << "Dictionary could not be read." << endl;
     return dictionary;
 }
+
 //method to pad all of the strings into a total of 16 bits
 std::vector<std::string> padDictionary(std::vector<std::string> dict){
 	std::vector<std::string> padedDict;
@@ -44,6 +46,7 @@ std::vector<std::string> padDictionary(std::vector<std::string> dict){
 
     return padedDict;
 }
+
 //method to convert strings into hexadecimal
 std::string string_to_hex(const std::string& input)
 {
@@ -58,76 +61,89 @@ std::string string_to_hex(const std::string& input)
     }
     return output;
 }
+
 //Method for actual encryption
 //HEAVILY BASED ON THE EXAMPLE GIVEN TO US FROM THE DOCUMENT:
 //https://www.openssl.org/docs/man1.0.2/crypto/EVP_EncryptInit.html
-
- int do_crypt(std::string k)
-    {
-    unsigned char outbuf[1024];
-    int outlen, tmplen;
+int do_crypt(std::string k)
+{
+    unsigned char outbuf[1024]; //buffer for output
+    int outlen, tmplen; //lengths
     //setting key to be the current k(padDict[x])
-	unsigned char key[16];
-	for(int i = 0; i<16; i++){
-		key[i]=k[i];
+	unsigned char key[16]; //for key
+	for(int i = 0; i<16; i++)
+	{
+		key[i]=k[i]; //populating key
 	}
+	
 	//setting the IV to always be 0
     unsigned char iv[16] = {0};
     //hard coding in the text that were goign to be encrypting/checking
     unsigned char intext[] = "This is a top secret.";
     //for some reason had to create this, and the strlen did not accept an unsigned char*
-	char intext2[] = "This is a top secret.";
-    EVP_CIPHER_CTX ctx;
-    FILE *out;
+	char intext2[] = "This is a top secret."; //input - plaintext
+    EVP_CIPHER_CTX ctx; //cipher context - where the stuff happens
+    FILE *out; //output file - "cipher.txt"
 
     EVP_CIPHER_CTX_init(&ctx);
-    EVP_EncryptInit_ex(&ctx, EVP_aes_128_cbc(), NULL, key, iv);
+    EVP_EncryptInit_ex(&ctx, EVP_aes_128_cbc(), NULL, key, iv); 
+	//beginning - context, encryption mode, encryption key, iv
 
+	//middle - context, out buffer, output length, input text (unsigned), length of second input text
     if(!EVP_EncryptUpdate(&ctx, outbuf, &outlen, intext, strlen(intext2)))
     {
-    return 0;
+    	return 0; //cancels function if fails
     }
+	
+	//end - context, output buffer + output length, temp (transitory) length
     if(!EVP_EncryptFinal_ex(&ctx, outbuf + outlen, &tmplen))
     {
-    return 0;
+    	return 0; //cancels function if fails;
     }
     outlen += tmplen;
-    EVP_CIPHER_CTX_cleanup(&ctx);
+    EVP_CIPHER_CTX_cleanup(&ctx); //cleaning up context
+	
     //printing out the encoded cipher into "cipher2.txt" to be compared too later for corectness
     out = fopen("cipher2.txt", "w");
     fwrite(outbuf, 1, outlen, out);
     fclose(out);
     return 1;
-    }
-//looping through the entire dictionary, and checkign each word with the encryption
+}
+
+//looping through the entire dictionary, and checking each word with the encryption
 int keyCount(std::vector<std::string> padDict){
 	bool done = false;
-	int correct = 0;
-	int x = 0;
-	//initilizing
-	vector<string> possible_valids;
-	while(done == false){
-		//hard coded in break, because we know size of dictionary
-		if(x >= 25142){
+	int correct = 0; //to be used as index (in dictionary) of the correct key (word)
+	int x = 0; //index (in dictionary) of current key (word)
+	
+	//initializing
+	vector<string> possible_valids; //list of keys (words) that produce possibly correct ciphertexts
+	while(done == false)
+	{
+		//hard-coded the break, because we know size of dictionary
+		//and we want to make sure that no word is overlooked as a possible key
+		if(x >= 25142){ //25142 = number of words in dictionary
 			done = true;
 		}
+		
 		//calling the encryption for the specific key
 		do_crypt(padDict[x]);
-		//reading the outputfile
-		ifstream file;
-		file.open("cipher2.txt");
-		std::string word;
-		std::string allword;
+		//reading the output file that was written in do_crypt
+		ifstream file; //filestream for ciphertext
+		file.open("cipher2.txt"); //open file
+		std::string word; //for each "word" (separated by new line) in file
+		std::string allword; //entire phrase from ciphertext
  		while(file >> word){
 			//cout << string_to_hex(word) << endl;
-			//parsing the entire hex phrase onto one line
+			//parsing the entire hex phrase onto one line (in case it gets separated into multiple lines)
 			allword = allword+string_to_hex(word);
     		}
     	//searching for specific hex code,
     	//searches for last bits, because there might have been problems when parsing the line
 		if(allword.find("4A2EF2AD4540FAE1CA0AAF9") != string::npos ){
 			//if found, push onto possible valids
-			possible_valids.push_back(std::to_string(x) + " : " + allword +" : " + padDict[x]);
+			possible_valids.push_back(std::to_string(x) + " : " + allword +" : " + padDict[x]); 
+			//index : ciphertext (in hex) : key
 			//set correct as the current word
 			correct = x;
 		}
