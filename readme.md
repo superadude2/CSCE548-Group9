@@ -41,8 +41,8 @@ C.	Mode 3 using ECB
 password.txt:                 
 ![screen shot 2018-02-12 at 6 33 02 pm](https://user-images.githubusercontent.com/36014195/36125931-3196516e-1024-11e8-8848-fb8f358266bc.png)
 2.	Decryption
--	openssl enc -bf-ecb -d -in ciphermode3.bin -out mode3.txt -pass file:password.txt
-this is decrypted file looks like:     
+       openssl enc -bf-ecb -d -in ciphermode3.bin -out mode3.txt -pass file:password.txt
+- this is decrypted file looks like:     
 ![screen shot 2018-02-12 at 6 58 24 pm](https://user-images.githubusercontent.com/36014195/36126503-c99026e6-1026-11e8-8585-b49ee0479363.png)
 
 
