@@ -71,7 +71,6 @@ B. Mode CBC
 			have to use hex editor to replace the first 54 bytes with that of the original picture pic_original.bmp
 			should open up both original and encrypted hex editor by using ghex pic_original.bmp and ghex cbc.bmp
 			the first 54 bytes were highlighted
-
 	2. Display image
 		Should have something like this:
 		![screen shot 2018-02-13 at 11 18 23 am](https://raw.githubusercontent.com/superadude2/CSCE548-Group9/master/images/Screen%20Shot%202018-02-13%20at%2011.18.23%20AM.png)
@@ -82,32 +81,28 @@ For this task, need to create a at least a 64-byte file, use AES -128 cipher, th
 A. CBC mode
 	1. Encryption
 		- openssl enc -aes-128-cbc -e -in corrputed.txt -out cipher_cbc.bin \-K 0011223344556677889aabbccddeeff \-iv 0102030405060708
-
 		This is the original file:
-		![screen shot 2018-02-13 at 11 18 39 am](https://github.com/superadude2/CSCE548-Group9/blob/master/images/Screen%20Shot%202018-02-13%20at%2011.18.39%20AM.png)
-		
+![screen shot 2018-02-13 at 11 18 39 am](https://github.com/superadude2/CSCE548-Group9/blob/master/images/Screen%20Shot%202018-02-13%20at%2011.18.39%20AM.png)
 		Open hex editor to change the bit, using command ghex cipher_cbc.bin
 		The 30th byte was 10
-		![screen shot]()
-		
+		![screen shot](https://github.com/superadude2/CSCE548-Group9/blob/master/images/Screen%20Shot%202018-02-13%20at%2011.18.55%20AM.png)
 		Then change it into F0
-		![screen shot 2018-02-13 at 11 18 47 am](https://github.com/superadude2/CSCE548-Group9/blob/master/images/Screen%20Shot%202018-02-13%20at%2011.18.47%20AM.png)
-
+		![screen shot 2018-02-13 at 11 18 47 am](https://github.com/superadude2/CSCE548-Group9/blob/master/images/Screen%20Shot%202018-02-13%20at%2011.18.55%20AM.png)
 	2. Decryption
 		- openssl enc -aes-128-cbc -d -in cipher_cbc.bin -out decrypt_cbc.txt \-K 0011223344556677889aabbccddeeff \-iv 0102030405060708
 			Then decrypted, to show the contents of the corrupted file:
-			![screen shot 2018-02-13 at 11 18 55 am](https://github.com/superadude2/CSCE548-Group9/blob/master/images/Screen%20Shot%202018-02-13%20at%2011.18.55%20AM.png)
+			![screen shot 2018-02-13 at 11 18 55 am](https://github.com/superadude2/CSCE548-Group9/blob/master/images/Screen%20Shot%202018-02-13%20at%2011.19.02%20AM.png)
 			Observation: two places haven’t corrupted.
 B. ECB mode
 	1. Encryption
 		- openssl enc -aes-128-ecb -e -in corrupted.txt -out cipher_ecb.bin \-K 0011223344556677889aabbccddeeff \-iv 0102030405060708
 		This is the original file:
-		![screen shot 2018-02-13 at 11 18 02 am](https://github.com/superadude2/CSCE548-Group9/blob/master/images/Screen%20Shot%202018-02-13%20at%2011.19.02%20AM.png)
+		![screen shot 2018-02-13 at 11 18 02 am]()
 		Open hex editor to change the bit, using command "ghex cipher_ecb.bin"
 		ECB mode, original file, its 30th byte was "4D".
-		![screen shot]()
+		![screen shot](https://github.com/superadude2/CSCE548-Group9/blob/master/images/Screen%20Shot%202018-02-13%20at%2011.19.17%20AM.png)
 		Then change it into "AD".
-		![screen shot 2018-02-13 at 11 19 09 am](https://github.com/superadude2/CSCE548-Group9/blob/master/images/Screen%20Shot%202018-02-13%20at%2011.19.09%20AM.png)
+		![screen shot 2018-02-13 at 11 19 09 am](https://github.com/superadude2/CSCE548-Group9/blob/master/images/Screen%20Shot%202018-02-13%20at%2011.19.23%20AM.png)
 	2. Decryption
 		- openssl enc -aes-128-ecb -d -in cipher_ecb.bin \-K 0011223344556677889aabbccddeeff \-iv 0102030405060708
 			the content of corrupted file:
