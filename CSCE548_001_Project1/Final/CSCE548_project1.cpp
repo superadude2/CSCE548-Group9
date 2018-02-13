@@ -51,7 +51,7 @@ std::string string_to_hex(const std::string& input)
     size_t inLength = input.length();
     std::string output;
     output.reserve(2 * inLength);
-    for (size_t i = 0; i < len; ++i){
+    for (size_t i = 0; i < inLength; ++i){
         const unsigned char c = input[i];
         output.push_back(chars[c >> 4]);
         output.push_back(chars[c & 15]);
