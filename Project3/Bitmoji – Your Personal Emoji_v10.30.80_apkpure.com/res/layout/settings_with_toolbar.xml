@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/settings_container" android:background="@android:color/background_light" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar android:id="@id/settings_toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:minHeight="?actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:layout_scrollFlags="enterAlways|scroll" app:navigationIcon="?homeAsUpIndicator" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <com.bitstrips.imoji.ui.views.BmTextView android:textSize="@dimen/toolbar_fontSize" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings" />
+        <com.bitstrips.imoji.ui.views.BmTextView android:textSize="@dimen/settings_version_text_size" android:textColor="@color/settings_current_version_text" android:gravity="right" android:id="@id/settings_toolbar_version" android:paddingRight="@dimen/settings_version_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </android.support.v7.widget.Toolbar>
+    <FrameLayout android:id="@id/content_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/settings_toolbar">
+        <include layout="@layout/preference_list_fragment" />
+    </FrameLayout>
+    <com.bitstrips.imoji.ui.views.BmTextView android:textSize="@dimen/settings_delete_account_text_size" android:textColor="@color/settings_delete_account_button" android:gravity="center_horizontal" android:id="@id/delete_account" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_delete_account_top_margin" android:text="@string/delete_account_settings_title" android:layout_below="@id/content_frame" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <files-path path="internal/" name="private" />
+    <files-path path="" name="private_img" />
+    <cache-path path="" name="images" />
+    <external-path path="" name="external_files" />
+</paths>

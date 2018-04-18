@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="invite_dialog_options">
+        <item>Skicka inbjudan via e-post</item>
+        <item>Skicka inbjudan via SMS</item>
+        <item>Kopiera inbjudningslänken</item>
+    </string-array>
+</resources>

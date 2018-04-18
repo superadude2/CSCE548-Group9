@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.bitstrips.imoji.ui.views.BmTextView android:gravity="center" android:id="@id/textual_brand_header" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.makeramen.RoundedImageView android:id="@id/background_brand_header" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" app:corner_radius="8.0dip" />
+    <com.makeramen.RoundedImageView android:id="@id/background_brand_logo" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

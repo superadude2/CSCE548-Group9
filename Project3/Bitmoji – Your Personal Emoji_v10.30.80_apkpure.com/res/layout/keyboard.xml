@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/keyboardHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/keyboardHeight">
+        <com.bitstrips.imoji.keyboard.KeyboardTabView android:gravity="center" android:id="@id/keyboardTabs" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <android.support.v4.view.ViewPager android:id="@id/keyboardPager" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/keyboard_incompatible_app" />
+                <com.bitstrips.imoji.keyboard.BitmojisView android:id="@id/bitmojisView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <android.inputmethodservice.KeyboardView android:layout_gravity="bottom" android:id="@id/keyboard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:keyPreviewLayout="@layout/keyboard_preview" />
+    <ImageButton android:layout_gravity="bottom|center|right" android:id="@id/keyboardSettingsButton" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/ic_menu_compass" />
+    <com.bitstrips.imoji.keyboard.NotLoggedInKeyboard android:id="@id/notLoggedInView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/keyboard_sunset" />
+</FrameLayout>

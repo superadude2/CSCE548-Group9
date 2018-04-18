@@ -1,0 +1,1447 @@
+{
+  "cm": {
+    "create": {
+      "male": [
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "skin_tone"
+          ]
+        },
+        {
+          "iconName": "bottombar_hair_male",
+          "subCategoryKeys": [
+            "hair_tone",
+            "hair",
+            "hair_treatment_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "beard",
+            "beard_tone"
+          ]
+        },
+        {
+          "iconName": "bottombar_eyes",
+          "subCategoryKeys": [
+            "eye",
+            "eye_size",
+            "eye_spacing",
+            "pupil_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "brow",
+            "brow_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "nose"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "glasses"
+          ]
+        },
+        {
+          "iconName": "bottombar_jaw",
+          "subCategoryKeys": [
+            "jaw",
+            "face_proportion"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "mouth"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "ear"
+          ]
+        },
+        {
+          "iconName": "bottombar_facialdetails",
+          "subCategoryKeys": [
+            "cheek_details",
+            "face_lines",
+            "eye_details"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "earring"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "hat"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "body"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "outfit"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "save"
+          ]
+        }
+      ],
+      "female": [
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "skin_tone"
+          ]
+        },
+        {
+          "iconName": "bottombar_hair_female",
+          "subCategoryKeys": [
+            "hair_tone",
+            "hair",
+            "hair_treatment_tone"
+          ]
+        },
+        {
+          "iconName": "bottombar_eyes",
+          "subCategoryKeys": [
+            "eye",
+            "eyelash",
+            "eye_size",
+            "eye_spacing",
+            "pupil_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "brow",
+            "brow_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "nose"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "glasses"
+          ]
+        },
+        {
+          "iconName": "bottombar_jaw",
+          "subCategoryKeys": [
+            "jaw",
+            "face_proportion"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "mouth"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "ear"
+          ]
+        },
+        {
+          "iconName": "bottombar_facialdetails",
+          "subCategoryKeys": [
+            "cheek_details",
+            "face_lines",
+            "eye_details"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "eyeshadow_tone",
+            "blush_tone",
+            "lipstick_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "earring"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "hat"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "body"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "breast"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "outfit"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "save"
+          ]
+        }
+      ]
+    },
+    "edit": {
+      "male": [
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "skin_tone"
+          ]
+        },
+        {
+          "iconName": "bottombar_hair_male",
+          "subCategoryKeys": [
+            "hair_tone",
+            "hair",
+            "hair_treatment_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "beard",
+            "beard_tone"
+          ]
+        },
+        {
+          "iconName": "bottombar_eyes",
+          "subCategoryKeys": [
+            "eye",
+            "eyelash",
+            "eye_size",
+            "eye_spacing",
+            "pupil_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "brow",
+            "brow_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "nose"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "glasses"
+          ]
+        },
+        {
+          "iconName": "bottombar_jaw",
+          "subCategoryKeys": [
+            "jaw",
+            "face_proportion"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "mouth"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "ear"
+          ]
+        },
+        {
+          "iconName": "bottombar_facialdetails",
+          "subCategoryKeys": [
+            "cheek_details",
+            "face_lines",
+            "eye_details"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "eyeshadow_tone",
+            "blush_tone",
+            "lipstick_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "earring"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "hat"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "body"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "outfit"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "save"
+          ]
+        }
+      ],
+      "female": [
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "skin_tone"
+          ]
+        },
+        {
+          "iconName": "bottombar_hair_female",
+          "subCategoryKeys": [
+            "hair_tone",
+            "hair",
+            "hair_treatment_tone"
+          ]
+        },
+        {
+          "iconName": "bottombar_eyes",
+          "subCategoryKeys": [
+            "eye",
+            "eyelash",
+            "eye_size",
+            "eye_spacing",
+            "pupil_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "brow",
+            "brow_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "nose"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "glasses"
+          ]
+        },
+        {
+          "iconName": "bottombar_jaw",
+          "subCategoryKeys": [
+            "jaw",
+            "face_proportion"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "mouth"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "ear"
+          ]
+        },
+        {
+          "iconName": "bottombar_facialdetails",
+          "subCategoryKeys": [
+            "cheek_details",
+            "face_lines",
+            "eye_details"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "eyeshadow_tone",
+            "blush_tone",
+            "lipstick_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "earring"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "hat"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "body"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "breast"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "outfit"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "save"
+          ]
+        }
+      ]
+    },
+    "body": {
+      "male": [
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "body"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "outfit"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "save"
+          ]
+        }
+      ],
+      "female": [
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "body"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "breast"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "outfit"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "save"
+          ]
+        }
+      ]
+    }
+  },
+  "bitstrips": {
+    "create": {
+      "male": [
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "skin_tone"
+          ]
+        },
+        {
+          "iconName": "bottombar_hair_male",
+          "subCategoryKeys": [
+            "hair_tone",
+            "hair"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "beard",
+            "beard_tone"
+          ]
+        },
+        {
+          "iconName": "bottombar_eyes",
+          "subCategoryKeys": [
+            "eye",
+            "pupil",
+            "pupil_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "brow",
+            "brow_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "nose"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "glasses"
+          ]
+        },
+        {
+          "iconName": "bottombar_jaw",
+          "subCategoryKeys": [
+            "jaw",
+            "face_proportion"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "mouth"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "ear"
+          ]
+        },
+        {
+          "iconName": "bottombar_facialdetails",
+          "subCategoryKeys": [
+            "cheek_details",
+            "face_lines",
+            "eye_details"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "earring"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "hat"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "body"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "outfit"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "save"
+          ]
+        }
+      ],
+      "female": [
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "skin_tone"
+          ]
+        },
+        {
+          "iconName": "bottombar_hair_female",
+          "subCategoryKeys": [
+            "hair_tone",
+            "hair"
+          ]
+        },
+        {
+          "iconName": "bottombar_eyes",
+          "subCategoryKeys": [
+            "eye",
+            "eyelash",
+            "pupil",
+            "pupil_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "brow",
+            "brow_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "nose"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "glasses"
+          ]
+        },
+        {
+          "iconName": "bottombar_jaw",
+          "subCategoryKeys": [
+            "jaw",
+            "face_proportion"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "mouth"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "ear"
+          ]
+        },
+        {
+          "iconName": "bottombar_facialdetails",
+          "subCategoryKeys": [
+            "cheek_details",
+            "face_lines",
+            "eye_details"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "eyeshadow_tone",
+            "blush_tone",
+            "lipstick_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "earring"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "hat"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "body"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "breast"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "outfit"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "save"
+          ]
+        }
+      ]
+    },
+    "edit": {
+      "male": [
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "skin_tone"
+          ]
+        },
+        {
+          "iconName": "bottombar_hair_male",
+          "subCategoryKeys": [
+            "hair_tone",
+            "hair"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "beard",
+            "beard_tone"
+          ]
+        },
+        {
+          "iconName": "bottombar_eyes",
+          "subCategoryKeys": [
+            "eye",
+            "eyelash",
+            "pupil",
+            "pupil_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "brow",
+            "brow_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "nose"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "glasses"
+          ]
+        },
+        {
+          "iconName": "bottombar_jaw",
+          "subCategoryKeys": [
+            "jaw",
+            "face_proportion"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "mouth"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "ear"
+          ]
+        },
+        {
+          "iconName": "bottombar_facialdetails",
+          "subCategoryKeys": [
+            "cheek_details",
+            "face_lines",
+            "eye_details"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "eyeshadow_tone",
+            "blush_tone",
+            "lipstick_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "earring"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "hat"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "body"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "outfit"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "save"
+          ]
+        }
+      ],
+      "female": [
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "skin_tone"
+          ]
+        },
+        {
+          "iconName": "bottombar_hair_female",
+          "subCategoryKeys": [
+            "hair_tone",
+            "hair"
+          ]
+        },
+        {
+          "iconName": "bottombar_eyes",
+          "subCategoryKeys": [
+            "eye",
+            "eyelash",
+            "pupil",
+            "pupil_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "brow",
+            "brow_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "nose"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "glasses"
+          ]
+        },
+        {
+          "iconName": "bottombar_jaw",
+          "subCategoryKeys": [
+            "jaw",
+            "face_proportion"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "mouth"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "ear"
+          ]
+        },
+        {
+          "iconName": "bottombar_facialdetails",
+          "subCategoryKeys": [
+            "cheek_details",
+            "face_lines",
+            "eye_details"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "eyeshadow_tone",
+            "blush_tone",
+            "lipstick_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "earring"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "hat"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "body"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "breast"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "outfit"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "save"
+          ]
+        }
+      ]
+    },
+    "body": {
+      "male": [
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "body"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "outfit"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "save"
+          ]
+        }
+      ],
+      "female": [
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "body"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "breast"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "outfit"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "save"
+          ]
+        }
+      ]
+    }
+  },
+  "bitmoji": {
+    "create": {
+      "male": [
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "skin_tone"
+          ]
+        },
+        {
+          "iconName": "bottombar_hair_male",
+          "subCategoryKeys": [
+            "hair_tone",
+            "hair"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "beard",
+            "beard_tone"
+          ]
+        },
+        {
+          "iconName": "bottombar_eyes",
+          "subCategoryKeys": [
+            "pupil_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "brow",
+            "brow_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "nose"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "glasses"
+          ]
+        },
+        {
+          "iconName": "bottombar_jaw",
+          "subCategoryKeys": [
+            "face_proportion"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "mouth"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "hat"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "body"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "outfit"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "save"
+          ]
+        }
+      ],
+      "female": [
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "skin_tone"
+          ]
+        },
+        {
+          "iconName": "bottombar_hair_female",
+          "subCategoryKeys": [
+            "hair_tone",
+            "hair"
+          ]
+        },
+        {
+          "iconName": "bottombar_eyes",
+          "subCategoryKeys": [
+            "pupil_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "brow",
+            "brow_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "nose"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "glasses"
+          ]
+        },
+        {
+          "iconName": "bottombar_jaw",
+          "subCategoryKeys": [
+            "face_proportion"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "mouth"
+          ]
+        },
+        {
+          "iconName": "bottombar_facialdetails",
+          "subCategoryKeys": [
+            "cheek_details",
+            "face_lines",
+            "eye_details"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "eyeshadow_tone",
+            "blush_tone",
+            "lipstick_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "hat"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "body"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "breast"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "outfit"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "save"
+          ]
+        }
+      ]
+    },
+    "edit": {
+      "male": [
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "skin_tone"
+          ]
+        },
+        {
+          "iconName": "bottombar_hair_male",
+          "subCategoryKeys": [
+            "hair_tone",
+            "hair"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "beard",
+            "beard_tone"
+          ]
+        },
+        {
+          "iconName": "bottombar_eyes",
+          "subCategoryKeys": [
+            "pupil_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "brow",
+            "brow_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "nose"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "glasses"
+          ]
+        },
+        {
+          "iconName": "bottombar_jaw",
+          "subCategoryKeys": [
+            "face_proportion"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "mouth"
+          ]
+        },
+        {
+          "iconName": "bottombar_facialdetails",
+          "subCategoryKeys": [
+            "cheek_details",
+            "face_lines",
+            "eye_details"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "blush_tone",
+            "lipstick_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "hat"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "body"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "outfit"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "save"
+          ]
+        }
+      ],
+      "female": [
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "skin_tone"
+          ]
+        },
+        {
+          "iconName": "bottombar_hair_female",
+          "subCategoryKeys": [
+            "hair_tone",
+            "hair"
+          ]
+        },
+        {
+          "iconName": "bottombar_eyes",
+          "subCategoryKeys": [
+            "pupil_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "brow",
+            "brow_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "nose"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "glasses"
+          ]
+        },
+        {
+          "iconName": "bottombar_jaw",
+          "subCategoryKeys": [
+            "face_proportion"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "mouth"
+          ]
+        },
+        {
+          "iconName": "bottombar_facialdetails",
+          "subCategoryKeys": [
+            "cheek_details",
+            "face_lines",
+            "eye_details"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "eyeshadow_tone",
+            "blush_tone",
+            "lipstick_tone"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "hat"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "body"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "breast"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "outfit"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "save"
+          ]
+        }
+      ]
+    },
+    "body": {
+      "male": [
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "body"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "outfit"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "save"
+          ]
+        }
+      ],
+      "female": [
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "body"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "breast"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "outfit"
+          ]
+        },
+        {
+          "iconName": "",
+          "subCategoryKeys": [
+            "save"
+          ]
+        }
+      ]
+    }
+  }
+}

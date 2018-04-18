@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/monouser_title">
+        <CheckBoxPreference android:title="@string/enable_monouser_login" android:key="@string/enable_monouser_login_key" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/monouser_force_web_login" android:key="@string/monouser_force_web_login_key" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/monouser_force_token_refresh" android:key="@string/monouser_force_token_refresh_key" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/monouser_force_web_login_failure" android:key="@string/monouser_force_login_failure_key" android:defaultValue="false" />
+        <com.bitstrips.imoji.ui.views.AccountsEndpointPickerDialog android:title="@string/monouser_configure_accounts_endpoint_title" android:dialogTitle="@string/monouser_configure_accounts_endpoint_title" android:positiveButtonText="@string/save" android:negativeButtonText="@string/cancel" android:dialogLayout="@layout/endpoint_picker_preference" />
+        <Preference android:id="@id/token_refresh_intent" android:title="@string/token_refresh_intent_title" android:key="@string/token_refresh_intent_title" />
+    </PreferenceCategory>
+</PreferenceScreen>

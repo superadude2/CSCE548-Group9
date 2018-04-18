@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="invite_dialog_options">
+        <item>Αποστολή πρόσκλησης μέσω email</item>
+        <item>Αποστολή πρόσκλησης μέσω SMS</item>
+        <item>Αντιγραφή συνδέσμου πρόσκλησης</item>
+    </string-array>
+</resources>

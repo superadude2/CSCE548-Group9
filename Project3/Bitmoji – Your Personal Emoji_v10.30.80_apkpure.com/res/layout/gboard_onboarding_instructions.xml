@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/onboarding_background_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/gboard_onboarding_instructions_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0">
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.bitstrips.imoji.ui.views.BmTextView android:text="@string/gboard_onboarding_instruct_title" style="@style/OnboardingTitleStyle" />
+        <com.bitstrips.imoji.ui.views.BmTextView android:text="@string/gboard_onboarding_instruct_desc" style="@style/OnboardingDescStyle" />
+        <com.bitstrips.imoji.onboarding.gboard.GboardFakeEditText android:id="@id/fake_input" android:layout_width="1.0dip" android:layout_height="1.0dip" android:layout_marginLeft="-9999.0dip" android:inputType="textFilter|textMultiLine" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/onboarding_section_horizontal_margin" android:layout_marginTop="@dimen/onboarding_instructions_margin_top" android:layout_marginRight="@dimen/onboarding_section_horizontal_margin">
+            <com.bitstrips.imoji.ui.views.BmTextView android:textColor="@color/onboarding_yellow" android:text="@string/gboard_onboarding_instruct_stickers" android:drawableLeft="@drawable/gboard_stickers" style="@style/OnboardingInstructionTop" />
+            <com.bitstrips.imoji.ui.views.BmTextView android:textColor="@color/onboarding_green" android:text="@string/gboard_onboarding_instruct_bitmoji_tab" android:drawableLeft="@drawable/gboard_bitmoji" style="@style/OnboardingInstruction" />
+            <com.bitstrips.imoji.ui.views.BmTextView android:textColor="@color/onboarding_red" android:text="@string/gboard_onboarding_instruct_pick" android:drawableLeft="@drawable/gboard_send" style="@style/OnboardingInstructionBottom" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/keyboard_placeholder" android:background="@color/onboarding_keyboard_placeholder_color" android:layout_width="fill_parent" android:layout_height="0.0dip">
+            <com.bitstrips.imoji.ui.views.BmButton android:id="@id/gboard_onboarding_open_keyboard_button" style="@style/OpenKeyboardButton" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.bitstrips.imoji.ui.views.BmButton android:id="@id/skip_button" android:text="@string/gboard_onboarding_skip" style="@style/OnboardingSkipButtonStyle" />
+</FrameLayout>

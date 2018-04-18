@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.bitstrips.imoji.ui.views.CameraPreview android:id="@id/camera_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/above_face_outline" android:background="@color/avatar_builder_camera_background" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="@integer/avatar_builder_camera_top_weight" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/face_outline_wrapper" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="@integer/avatar_builder_camera_outline_weight">
+            <View android:id="@id/left_of_face_outline" android:background="@color/avatar_builder_camera_background" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <com.bitstrips.imoji.abv3.camera.AvatarBuilderCameraOutlineView android:background="@drawable/avbuilder_capturering" android:layout_width="0.0dip" android:layout_height="fill_parent" />
+            <View android:id="@id/right_of_face_outline" android:background="@color/avatar_builder_camera_background" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+        <View android:id="@id/below_face_outline" android:background="@color/avatar_builder_camera_background" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="@integer/avatar_builder_camera_bottom_weight" />
+    </LinearLayout>
+    <ImageView android:id="@id/capture_button" android:layout_width="@dimen/avatar_builder_selfie_capture_button_size" android:layout_height="@dimen/avatar_builder_selfie_capture_button_size" android:layout_marginBottom="@dimen/avatar_builder_selfie_capture_button_margin" android:src="@drawable/avbuilder_captureselfie" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/avatar_builder_skip_button_text_size" android:textColor="@color/avatar_builder_camera_skip_text" android:id="@id/skip_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/avatar_builder_skip_button_margin" android:text="@string/avatar_builder_show_camera_skip" android:shadowColor="@color/avatar_builder_camera_skip_shadow" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="4.0" android:layout_marginEnd="@dimen/avatar_builder_skip_button_margin" android:layout_alignParentEnd="true" />
+</RelativeLayout>

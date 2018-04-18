@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@drawable/avatar_builder_gender_fragment_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0" />
+        <com.bitstrips.imoji.abv3.gender.AvatarGenderRatioView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="28.0">
+            <com.bitstrips.imoji.abv3.gender.AvatarGenderBackgroundView android:layout_gravity="bottom|center" android:id="@id/female_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/avatar_builder_gender_circle_background" />
+            <com.bitstrips.imoji.abv3.gender.AvatarGenderClipView android:layout_gravity="center_horizontal" android:id="@id/female_button" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:layout_gravity="center" android:id="@id/female_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/gender_female" />
+            </com.bitstrips.imoji.abv3.gender.AvatarGenderClipView>
+        </com.bitstrips.imoji.abv3.gender.AvatarGenderRatioView>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.bitstrips.imoji.abv3.gender.AvatarGenderRatioView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="28.0">
+            <com.bitstrips.imoji.abv3.gender.AvatarGenderBackgroundView android:layout_gravity="bottom|center" android:id="@id/male_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/avatar_builder_gender_circle_background" />
+            <com.bitstrips.imoji.abv3.gender.AvatarGenderClipView android:layout_gravity="center_horizontal" android:id="@id/male_button" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:layout_gravity="center" android:id="@id/male_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/gender_male" />
+            </com.bitstrips.imoji.abv3.gender.AvatarGenderClipView>
+        </com.bitstrips.imoji.abv3.gender.AvatarGenderRatioView>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="6.0" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="start|clip_vertical" android:id="@id/exit_button" android:layout_width="@dimen/avatar_builder_exit_button_size" android:layout_height="@dimen/avatar_builder_exit_button_size" android:layout_marginLeft="@dimen/avatar_builder_exit_button_margin" android:layout_marginTop="@dimen/avatar_builder_exit_button_margin" android:src="@drawable/ic_close" android:layout_marginStart="@dimen/avatar_builder_exit_button_margin" />
+</FrameLayout>

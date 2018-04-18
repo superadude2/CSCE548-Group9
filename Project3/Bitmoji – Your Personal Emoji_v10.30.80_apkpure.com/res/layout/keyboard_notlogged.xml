@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/dark_bg" android:layout_width="fill_parent" android:layout_height="@dimen/keyboardHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageButton android:layout_gravity="center|right|top" android:id="@id/keyboardSwitchButton" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/ic_keyswitcher" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.bitstrips.imoji.ui.views.BmTextView android:textSize="@dimen/keyboard_text_size" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/keyboardLoggedOutText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/keyboard_logged_out" />
+        <android.support.v4.widget.Space android:layout_width="wrap_content" android:layout_height="20.0dip" />
+        <com.bitstrips.imoji.ui.views.BmButton android:textSize="@dimen/keyboard_button_text_size" android:textColor="@color/imoji_primary" android:id="@id/keyboardLoggedOutButton" android:background="@drawable/keyboard_logout_button_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/keyboard_button_lout" android:textAllCaps="false" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_config_prefDialogWidth">440.0dip</dimen>
+    <item type="dimen" name="abc_dialog_fixed_height_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_height_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_min_width_major">55.000008%</item>
+    <item type="dimen" name="abc_dialog_min_width_minor">79.99999%</item>
+    <dimen name="bitshop_header_height">48.0dip</dimen>
+    <dimen name="bitshop_header_logo_margins_vertical">6.0dip</dimen>
+    <dimen name="bitshop_thumbnail_size">180.0dip</dimen>
+    <dimen name="searchTag_card_padding">5.0dip</dimen>
+    <dimen name="searchTag_card_radius">3.0dip</dimen>
+    <dimen name="searchTag_layout_height">90.0dip</dimen>
+    <dimen name="searchTag_text_size">20.0sp</dimen>
+    <dimen name="thumbnail_size">140.0dip</dimen>
+</resources>

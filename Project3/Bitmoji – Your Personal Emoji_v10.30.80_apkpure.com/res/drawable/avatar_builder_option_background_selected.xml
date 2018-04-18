@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/avatar_builder_option_selected" />
+            <corners android:radius="@dimen/avatar_builder_option_selected_corner_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/avatar_builder_option_inset" android:color="@color/avatar_builder_option_selected_outer" />
+            <corners android:radius="@dimen/avatar_builder_option_selected_corner_radius" />
+        </shape>
+    </item>
+</layer-list>

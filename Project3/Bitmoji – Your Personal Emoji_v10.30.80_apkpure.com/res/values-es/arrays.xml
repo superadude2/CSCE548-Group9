@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="invite_dialog_options">
+        <item>Invitar por email</item>
+        <item>Invitar por SMS</item>
+        <item>Copiar enlace de invitación</item>
+    </string-array>
+</resources>

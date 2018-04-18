@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bitstrips.imoji.abv3.option.AvatarBuilderOptionView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.bitstrips.imoji.abv3.option.MakeupImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+    <com.bitstrips.imoji.abv3.option.MakeupImageView android:id="@id/image_no_makeup" android:padding="@dimen/avatar_builder_option_makeup_none_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/attribute_none" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/image_selected" android:padding="@dimen/avatar_builder_option_makeup_check_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/makeup_check" />
+</com.bitstrips.imoji.abv3.option.AvatarBuilderOptionView>

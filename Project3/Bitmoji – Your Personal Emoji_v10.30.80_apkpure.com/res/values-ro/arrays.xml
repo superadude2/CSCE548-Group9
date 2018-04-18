@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="invite_dialog_options">
+        <item>Trimite invitația prin e-mail</item>
+        <item>Trimite invitația prin SMS</item>
+        <item>Copiază link-ul de invitație</item>
+    </string-array>
+</resources>

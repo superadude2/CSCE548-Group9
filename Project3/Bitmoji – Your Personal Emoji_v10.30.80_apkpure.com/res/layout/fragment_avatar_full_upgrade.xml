@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/upgrade_teaser_background_color" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0" />
+    <com.bitstrips.imoji.ui.views.BmTextView android:textSize="@dimen/upgrade_teaser_dismiss_text_size" android:textColor="@color/upgrade_teaser_dismiss_text_color" android:layout_gravity="end" android:id="@id/upgrade_later_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/avatar_builder_upgrade_full_dismiss" android:layout_marginEnd="@dimen/upgrade_teaser_dismiss_end_margin" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0" />
+    <com.bitstrips.imoji.ui.views.BmTextView android:textSize="@dimen/upgrade_teaser_title_text_size" android:textColor="@color/upgrade_teaser_title_text_color" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/upgrade_title" android:layout_width="@dimen/upgrade_teaser_title_width" android:layout_height="wrap_content" android:text="@string/avatar_builder_upgrade_full_title" android:shadowColor="@color/upgrade_teaser_text_shadow" android:shadowDx="0.0" android:shadowDy="2.0" android:shadowRadius="0.5" android:lineSpacingExtra="-4.0sp" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="56.0">
+        <ImageView android:id="@id/upgrade_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/full_female" android:scaleType="fitCenter" />
+    </FrameLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.bitstrips.imoji.ui.views.BmTextView android:enabled="true" android:textSize="@dimen/upgrade_teaser_button_text_size" android:textStyle="bold" android:textColor="@color/upgrade_teaser_background_color" android:id="@id/upgrade_show_me_button" android:layout_width="fill_parent" android:layout_height="@dimen/upgrade_teaser_button_height" android:layout_marginLeft="@dimen/upgrade_teaser_button_margin" android:layout_marginRight="@dimen/upgrade_teaser_button_margin" android:text="@string/avatar_builder_upgrade_show_me" style="@style/ChangeStyleButton" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0" />
+    <com.bitstrips.imoji.ui.views.BmTextView android:textSize="@dimen/upgrade_teaser_notice_text_size" android:textColor="@color/upgrade_teaser_notice_text_color" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/upgrade_switch_back_notice" android:layout_width="@dimen/upgrade_teaser_notice_width" android:layout_height="wrap_content" android:text="@string/avatar_builder_upgrade_full_switch_back" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="6.0" />
+</LinearLayout>

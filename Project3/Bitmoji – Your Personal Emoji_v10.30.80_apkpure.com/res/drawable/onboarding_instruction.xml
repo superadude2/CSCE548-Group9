@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetBottom="@dimen/onboarding_instruction_negative_border_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <solid android:color="@android:color/white" />
+        <stroke android:width="@dimen/onboarding_instruction_border_width" android:color="@color/onboarding_instruction_border_color" />
+        <padding android:left="@dimen/onboarding_instruction_drawable_padding" android:top="@dimen/onboarding_instruction_vertical_padding" android:right="@dimen/onboarding_instruction_padding_right" android:bottom="@dimen/onboarding_instruction_vertical_padding" />
+    </shape>
+</inset>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.bitstrips.imoji.ui.preferences.BmPreference android:title="@string/privacy_policy" android:key="@string/privacy_policy_pref">
+        <intent android:targetPackage="@string/package_name" android:data="@string/privacy_policy_filename" android:targetClass="com.bitstrips.imoji.ui.ImojiWebViewActivity">
+            <extra android:name="android.intent.extra.TITLE" android:value="@string/privacy_policy" />
+        </intent>
+    </com.bitstrips.imoji.ui.preferences.BmPreference>
+    <com.bitstrips.imoji.ui.preferences.BmPreference android:id="@id/terms" android:title="@string/terms" android:key="@string/terms_of_use_pref">
+        <intent android:targetPackage="@string/package_name" android:data="@string/terms_of_use_filename" android:targetClass="com.bitstrips.imoji.ui.ImojiWebViewActivity">
+            <extra android:name="android.intent.extra.TITLE" android:value="@string/terms" />
+        </intent>
+    </com.bitstrips.imoji.ui.preferences.BmPreference>
+    <com.bitstrips.imoji.ui.preferences.BmPreference android:title="@string/licenses" android:key="@string/licenses_pref">
+        <intent android:targetPackage="@string/package_name" android:data="@string/licenses_filename" android:targetClass="com.bitstrips.imoji.ui.ImojiWebViewActivity">
+            <extra android:name="android.intent.extra.TITLE" android:value="@string/licenses" />
+        </intent>
+    </com.bitstrips.imoji.ui.preferences.BmPreference>
+    <com.bitstrips.imoji.ui.preferences.BmPreference android:id="@id/change_style" android:title="@string/change_style" android:key="@string/change_style_pref" />
+    <com.bitstrips.imoji.ui.preferences.BmPreference android:id="@id/reset_avatar" android:title="@string/reset_avatar" android:key="@string/reset_avatar_pref" />
+    <com.bitstrips.imoji.ui.preferences.BmPreference android:title="@string/logout" android:key="@string/logout_pref" />
+</PreferenceScreen>

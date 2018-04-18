@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.bitstrips.imoji.ui.views.BmTextView android:textColor="@color/recent_title_text" android:gravity="center|left" android:id="@id/header_title" android:background="@color/popular_title_background" android:layout_width="fill_parent" android:text="@string/popular_title" style="@style/SectionHeader" />
+</LinearLayout>

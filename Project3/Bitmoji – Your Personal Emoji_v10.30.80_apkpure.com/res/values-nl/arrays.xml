@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="invite_dialog_options">
+        <item>Verstuur uitnodiging via e-mail</item>
+        <item>Verstuur uitnodiging via sms</item>
+        <item>Uitnodigingslink kopiëren</item>
+    </string-array>
+</resources>

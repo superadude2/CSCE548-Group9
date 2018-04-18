@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="50.0">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/monogram_bg" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/connect_to_snapchat_avatar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+        <ImageButton android:id="@id/sc_close_button" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/activity_margin" android:src="@android:drawable/ic_menu_close_clear_cancel" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/banner_padding" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="50.0">
+        <ImageView android:id="@id/bitmoji_snapchat_image" android:layout_width="fill_parent" android:layout_height="80.0dip" android:src="@drawable/auth_apps" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_below="@id/bitmoji_snapchat_image">
+            <com.bitstrips.imoji.ui.views.BmTextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/connect_to_snapchat_title" />
+            <com.bitstrips.imoji.ui.views.BmTextView android:textColor="@android:color/black" android:gravity="center" android:id="@id/connect_to_snapchat_legal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/connect_to_snapchat_legal" />
+        </LinearLayout>
+        <com.bitstrips.imoji.ui.views.BmButton android:textStyle="bold" android:id="@id/snapchat_agree_connect" android:background="@color/snapchat_purple" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/connect_to_snapchat_button" android:layout_alignParentBottom="true" style="@style/AppTheme.Button" />
+    </LinearLayout>
+</LinearLayout>

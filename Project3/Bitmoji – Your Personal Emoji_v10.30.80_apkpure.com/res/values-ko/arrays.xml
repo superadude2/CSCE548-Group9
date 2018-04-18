@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="invite_dialog_options">
+        <item>이메일로 초대하기</item>
+        <item>SMS로 초대하기</item>
+        <item>초대 링크 복사</item>
+    </string-array>
+</resources>

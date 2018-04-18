@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/onboarding_background_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/bitmoji_image_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="0.075" />
+            <com.bitstrips.imoji.ui.views.SquareImageView android:id="@id/gboard_onboarding_finish_bitmoji" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.85" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.bitstrips.imoji.ui.views.BmTextView android:text="@string/gboard_onboarding_finish_title" style="@style/OnboardingTitleStyle" />
+        <com.bitstrips.imoji.ui.views.BmTextView android:text="@string/gboard_onboarding_finish_desc" style="@style/OnboardingDescStyle" />
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.bitstrips.imoji.ui.views.BmButton android:id="@id/next_button" android:layout_marginBottom="@dimen/onboarding_button_margin_bottom" android:text="@string/gboard_onboarding_finish_button" style="@style/GreenButton" />
+    </LinearLayout>
+</FrameLayout>

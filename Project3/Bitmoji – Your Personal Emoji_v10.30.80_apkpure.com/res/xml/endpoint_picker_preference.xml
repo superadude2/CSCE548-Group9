@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/endpoint_category_title">
+        <com.bitstrips.imoji.ui.views.EndpointPickerDialog android:title="@string/configure_endpoint_preference_title" android:dialogTitle="@string/configure_endpoint_title" android:positiveButtonText="@string/save" android:negativeButtonText="@string/cancel" android:dialogLayout="@layout/endpoint_picker_preference" />
+    </PreferenceCategory>
+</PreferenceScreen>

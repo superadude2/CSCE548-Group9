@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/webp_title">
+        <CheckBoxPreference android:title="@string/enable_webp" android:key="@string/enable_webp_key" android:defaultValue="false" />
+        <EditTextPreference android:singleLine="true" android:selectAllOnFocus="true" android:title="@string/webp_quality" android:key="@string/webp_quality_key" android:defaultValue="50" />
+    </PreferenceCategory>
+</PreferenceScreen>

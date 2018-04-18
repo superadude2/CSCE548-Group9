@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/preview_layout" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="@integer/avatar_builder_preview_layout_weight_normal">
+        <com.bitstrips.imoji.abv3.preview.AvatarBuilderPreviewView android:id="@id/preview_view" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <WebView android:id="@id/webview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:layout_gravity="bottom" android:id="@id/selfie_image_bottom_gradient" android:background="@drawable/avatar_builder_selfie_image_bottom_gradient" android:layout_width="fill_parent" android:layout_height="@dimen/avatar_builder_selfie_bottom_gradient_height" />
+        <ImageView android:layout_gravity="bottom|center|left" android:id="@id/selfie_prompt_button" android:layout_width="@dimen/avatar_builder_selfie_prompt_button_size" android:layout_height="@dimen/avatar_builder_selfie_prompt_button_size" android:layout_marginLeft="@dimen/avatar_builder_selfie_prompt_button_margin" android:src="@drawable/avbuilder_selfieprompt" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="start|clip_vertical" android:id="@id/exit_button" android:layout_width="@dimen/avatar_builder_exit_button_size" android:layout_height="@dimen/avatar_builder_exit_button_size" android:layout_marginLeft="@dimen/avatar_builder_exit_button_margin" android:layout_marginTop="@dimen/avatar_builder_exit_button_margin" android:src="@drawable/ic_close" android:layout_marginStart="@dimen/avatar_builder_exit_button_margin" />
+            <ImageView android:layout_gravity="end|clip_vertical" android:id="@id/top_save_button" android:layout_width="@dimen/avatar_builder_save_button_size" android:layout_height="@dimen/avatar_builder_save_button_size" android:layout_marginTop="@dimen/avatar_builder_save_button_top_margin" android:layout_marginRight="@dimen/avatar_builder_save_button_left_margin" android:src="@drawable/avatar_save" android:layout_marginEnd="@dimen/avatar_builder_save_button_left_margin" />
+        </FrameLayout>
+    </FrameLayout>
+    <com.bitstrips.imoji.abv3.category.AvatarCategoryContainerView android:id="@id/category_container_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="@integer/avatar_builder_category_option_layout_weight_normal" />
+</LinearLayout>

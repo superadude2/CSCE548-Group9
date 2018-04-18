@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="invite_dialog_options">
+        <item>メールで招待状を送信する</item>
+        <item>SMS経由で招待状を送信する</item>
+        <item>招待リンクをコピーする</item>
+    </string-array>
+</resources>

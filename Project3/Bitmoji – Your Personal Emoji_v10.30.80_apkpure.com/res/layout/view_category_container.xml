@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/tweak_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.bitstrips.imoji.abv3.bottombar.AvatarBottomBar android:orientation="horizontal" android:id="@id/tweak_bottom_bar" android:layout_width="fill_parent" android:layout_height="@dimen/avatar_builder_bottom_bar_height" android:layout_alignParentBottom="true" />
+        <android.support.v4.view.ViewPager android:id="@id/tweak_view_pager" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/tweak_bottom_bar" android:layout_below="@id/tweak_top_bar" />
+        <com.bitstrips.imoji.abv3.category.top.AvatarCategoryTopBar android:textColor="@android:color/black" android:id="@id/tweak_top_bar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/avatar_builder_category_title_height" android:layout_alignParentTop="true" />
+        <View android:id="@id/tweak_top_gradient" android:layout_width="fill_parent" android:layout_height="9.0dip" android:layout_below="@id/tweak_top_bar" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/category_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.bitstrips.imoji.abv3.bottombar.AvatarBottomBar android:orientation="horizontal" android:id="@id/category_bottom_bar" android:layout_width="fill_parent" android:layout_height="@dimen/avatar_builder_bottom_bar_height" android:layout_alignParentBottom="true" />
+        <android.support.v4.view.ViewPager android:id="@id/category_view_pager" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/category_bottom_bar" android:layout_below="@id/top_bar" />
+        <com.bitstrips.imoji.abv3.category.top.AvatarCategoryTopBar android:textColor="@android:color/black" android:id="@id/top_bar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/avatar_builder_category_title_height" android:layout_alignParentTop="true" />
+        <View android:id="@id/top_gradient" android:layout_width="fill_parent" android:layout_height="@dimen/avatar_builder_category_top_gradient_height" android:layout_below="@id/top_bar" />
+    </RelativeLayout>
+</merge>

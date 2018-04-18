@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:bottomLeftRadius="@dimen/onboarding_instruction_corner_radius" android:bottomRightRadius="@dimen/onboarding_instruction_corner_radius" />
+            <solid android:color="@android:color/white" />
+            <stroke android:width="@dimen/onboarding_instruction_border_width" android:color="@color/onboarding_instruction_border_color" />
+            <padding android:left="@dimen/onboarding_instruction_drawable_padding" android:top="@dimen/onboarding_instruction_vertical_padding" android:right="@dimen/onboarding_instruction_padding_right" android:bottom="@dimen/onboarding_instruction_vertical_padding" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/app_features_title">
+        <Preference android:id="@id/avatar_id" android:key="@string/avatar_id_key" />
+        <Preference android:id="@id/terms" android:title="@string/launch_terms_changed_title" android:key="@string/launch_terms_changed_key">
+            <intent android:targetPackage="@string/package_name" android:targetClass="com.bitstrips.imoji.ui.activities.TermsChangedActivity">
+                <extra android:name="EXTRAS_CURRENT_TOU_VERSION" android:value="2" />
+            </intent>
+        </Preference>
+        <CheckBoxPreference android:title="@string/enable_app_indexing_title" android:key="@string/enable_app_indexing" android:defaultValue="true" />
+        <Preference android:id="@id/fake_gboard_intent" android:title="@string/fake_gboard_intent_title" android:key="@string/fake_gboard_intent_title" />
+        <Preference android:id="@id/fake_gboard_dev_intent" android:title="@string/fake_gboard_dev_intent_title" android:key="@string/fake_gboard_dev_intent_title" />
+        <EditTextPreference android:title="@string/enable_app_indexing_period_title" android:key="@string/enable_app_indexing_period" android:defaultValue="2" />
+        <CheckBoxPreference android:title="@string/enable_sign_up_button_title" android:key="@string/enable_sign_up_button_key" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/enable_analytics_debug_title" android:key="@string/enable_analytics_debug_key" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/logcat_post_request_bodies" android:key="@string/logcat_post_request_bodies_key" android:defaultValue="false" />
+        <EditTextPreference android:singleLine="true" android:selectAllOnFocus="true" android:title="@string/gboard_storage_required_title" android:key="@string/gboard_storage_required_key" android:defaultValue="0" />
+    </PreferenceCategory>
+</PreferenceScreen>

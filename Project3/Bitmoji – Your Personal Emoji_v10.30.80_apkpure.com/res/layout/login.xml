@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SplashBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/monogram_bg" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/imageView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="0.0dip" android:src="@drawable/welcome_logo" android:scaleType="center" android:layout_above="@id/login_buttons" android:layout_centerInParent="true" android:contentDescription="@string/app_name" />
+    <LinearLayout android:orientation="vertical" android:id="@id/login_buttons" android:paddingLeft="@dimen/login_buttons_padding" android:paddingTop="@dimen/login_buttons_padding" android:paddingRight="@dimen/login_buttons_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ProgressBar android:id="@id/sc_login_progress" android:background="@drawable/sign_up_sc_button" android:padding="20.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:style/Widget.ProgressBar.Small" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/sign_up_sc_button" android:background="@drawable/sign_up_sc_button" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="@dimen/login_button_height" android:onClick="onSignUpWithSnapchatClicked" style="@style/AppTheme.Button.Light">
+            <com.bitstrips.imoji.ui.views.BmTextView android:gravity="center" android:id="@id/sign_up_sc_button_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/sign_up_sc_button" style="@style/AppTheme.TextView.Light" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/snapchat_ghost" />
+        </LinearLayout>
+        <com.bitstrips.imoji.ui.views.BmButton android:id="@id/sign_up_button" android:background="@drawable/sign_up_button" android:layout_width="fill_parent" android:layout_height="@dimen/login_button_height" android:layout_marginTop="@dimen/login_button_spacing" android:text="@string/sign_up_button" style="@style/AppTheme.Button" />
+        <RelativeLayout android:layout_gravity="center" android:id="@id/login" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_marginBottom="40.0dip">
+            <com.bitstrips.imoji.ui.views.BmTextView android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/login_link" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/log_in_with_email" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="invite_dialog_options">
+        <item>Wyślij zaproszenie e-mailem</item>
+        <item>Wyślij zaproszenie SMS-esem</item>
+        <item>Skopiuj link z zaproszeniem</item>
+    </string-array>
+</resources>

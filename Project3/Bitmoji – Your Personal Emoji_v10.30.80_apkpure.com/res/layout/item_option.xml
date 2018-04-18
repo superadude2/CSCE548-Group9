@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bitstrips.imoji.abv3.option.AvatarBuilderOptionView android:background="@drawable/avatar_builder_option_background" android:padding="@dimen/avatar_builder_option_inset" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/avatar_builder_option_inset"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.bitstrips.imoji.abv3.option.AvatarBuilderOptionImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+</com.bitstrips.imoji.abv3.option.AvatarBuilderOptionView>

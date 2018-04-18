@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="invite_dialog_options">
+        <item>透過電子郵件傳送邀請</item>
+        <item>透過簡訊傳送邀請</item>
+        <item>複製邀請連結</item>
+    </string-array>
+</resources>

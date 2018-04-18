@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.bitstrips.imoji.ui.views.BmTextView android:layout_gravity="center" android:id="@id/save" android:background="@drawable/avatar_builder_green_rounded_background" android:layout_width="280.0dip" android:layout_height="@dimen/avatar_builder_rounded_button_height" android:layout_marginBottom="@dimen/avatar_builder_category_header_offset" android:text="@string/avatar_builder_save" style="@style/avatar_builder_rounded_button_style" />
+</FrameLayout>

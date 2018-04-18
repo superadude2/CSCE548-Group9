@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/birthday_form" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_marginRight="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <DatePicker android:id="@id/sign_up_date_picker" android:layout_width="wrap_content" android:layout_height="190.0dip" android:layout_marginTop="0.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:calendarViewShown="false" android:datePickerMode="spinner" />
+    <com.bitstrips.imoji.ui.views.BmButton android:enabled="false" android:textStyle="bold" android:textColor="@drawable/sign_up_submit_button_text" android:id="@id/birthday_continue_button" android:layout_width="fill_parent" android:layout_marginBottom="16.0dip" android:text="@string/continue_" android:layout_above="@id/sign_up_date_picker" android:layout_alignLeft="@id/sign_up_date_picker" android:layout_alignRight="@id/sign_up_date_picker" android:layout_centerHorizontal="true" style="@style/AppTheme.Button2" />
+    <FrameLayout android:id="@id/date_field_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="44.0dip" android:layout_alignBottom="@id/birthday_continue_button" android:layout_alignParentTop="true">
+        <com.bitstrips.imoji.ui.views.BmEditText android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/sign_up_date_field" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/birthday_title" />
+    </FrameLayout>
+</RelativeLayout>

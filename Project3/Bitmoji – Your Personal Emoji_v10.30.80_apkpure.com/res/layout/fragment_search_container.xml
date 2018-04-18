@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/medium_gray" android:padding="@dimen/searchView_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.bitstrips.imoji.ui.views.BmSearchView android:layout_gravity="bottom" android:id="@id/searchViewFrag" android:background="@android:color/white" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/searchBackClickView" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <android.support.v7.widget.RecyclerView android:id="@id/tagsGridView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/searchContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

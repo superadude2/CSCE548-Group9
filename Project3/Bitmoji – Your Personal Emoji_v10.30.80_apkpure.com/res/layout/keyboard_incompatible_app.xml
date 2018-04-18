@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="vertical" android:id="@id/incompatible_overlay" android:background="@color/dark_bg" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/keyboardHeight" android:alpha="0.75">
+        <android.support.v4.widget.Space android:layout_width="wrap_content" android:layout_height="20.0dip" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.bitstrips.imoji.ui.views.BmTextView android:textSize="@dimen/keyboard_text_size" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/keyboardLoggedOutText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/keyboard_incompatible_app" />
+            <android.support.v4.widget.Space android:layout_width="wrap_content" android:layout_height="20.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

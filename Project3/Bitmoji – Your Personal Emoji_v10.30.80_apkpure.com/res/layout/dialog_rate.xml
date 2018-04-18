@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.widget.Space android:visibility="visible" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+    <com.bitstrips.imoji.ui.views.BmTextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="@android:color/black" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/rate_bitmoji_title" />
+    <android.support.v4.widget.Space android:visibility="visible" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+    <com.bitstrips.imoji.ui.views.BmTextView android:textStyle="bold" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/rate_bitmoji_message" />
+    <android.support.v4.widget.Space android:layout_width="fill_parent" android:layout_height="20.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.bitstrips.imoji.ui.views.BmButton android:textColor="@color/imoji_primary" android:id="@id/dialogButtonRate" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/rate_now" android:layout_weight="1.0" />
+        <com.bitstrips.imoji.ui.views.BmButton android:textColor="@color/imoji_primary_translucent" android:id="@id/dialogButtonNo" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/no_thanks" android:layout_weight="1.0" />
+        <com.bitstrips.imoji.ui.views.BmButton android:textColor="@color/imoji_primary_translucent" android:id="@id/dialogButtonRemind" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/remind" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

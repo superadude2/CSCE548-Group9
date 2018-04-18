@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.bitstrips.imoji.ui.views.BmTextView android:textSize="16.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/avatar_builder_likeness_title" />
+        <com.bitstrips.imoji.ui.views.BmTextView android:id="@id/looks_like_me" android:background="@drawable/avatar_builder_green_rounded_background" android:layout_width="280.0dip" android:layout_height="@dimen/avatar_builder_rounded_button_height" android:layout_marginTop="12.0dip" style="@style/avatar_builder_rounded_button_style" />
+        <com.bitstrips.imoji.ui.views.BmTextView android:id="@id/tweak" android:background="@drawable/avatar_builder_likeness_tweak_background" android:layout_width="280.0dip" android:layout_height="@dimen/avatar_builder_rounded_button_height" android:layout_marginTop="12.0dip" android:text="@string/avatar_builder_tweak" style="@style/avatar_builder_rounded_button_style" />
+    </LinearLayout>
+</FrameLayout>

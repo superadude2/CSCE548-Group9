@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="invite_dialog_options">
+        <item>通过邮件发送邀请</item>
+        <item>通过短信发送邀请</item>
+        <item>复制邀请链接</item>
+    </string-array>
+</resources>

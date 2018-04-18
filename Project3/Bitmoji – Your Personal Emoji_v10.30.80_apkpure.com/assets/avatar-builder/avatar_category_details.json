@@ -1,0 +1,317 @@
+{
+  "category_details": {
+    "blush_tone": {
+      "category_key": "blush_tone",
+      "column_count": 5,
+      "display_type": "makeup",
+      "icon_resource": "bottombar_makeup_blush",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_blush_title",
+      "background_color": "#28282E",
+      "title_color": "#CED4DA"
+    },
+    "eyeshadow_tone": {
+      "category_key": "eyeshadow_tone",
+      "column_count": 5,
+      "display_type": "makeup",
+      "icon_resource": "bottombar_makeup_eyeshadow",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_eye_shadow_tone_title",
+      "background_color": "#28282E",
+      "title_color": "#CED4DA"
+    },
+    "look_alikes": {
+      "category_key": "look_alikes",
+      "column_count": 3,
+      "display_type": "head",
+      "icon_resource": "avbuilder_lookalikes",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_look_alikes_title"
+    },
+    "brow_tone": {
+      "category_key": "brow_tone",
+      "column_count": 3,
+      "display_type": "head",
+      "icon_resource": "bottombar_colorprimary",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_eyebrow_tone_title"
+    },
+    "brow": {
+      "category_key": "brow",
+      "column_count": 3,
+      "display_type": "head",
+      "icon_resource": "avbuilder_eyebrow",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_eyebrows_title"
+    },
+    "beard": {
+      "category_key": "beard",
+      "column_count": 4,
+      "display_type": "head",
+      "icon_resource": "bottombar_beard",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_beard_title"
+    },
+    "face_proportion": {
+      "category_key": "face_proportion",
+      "column_count": 3,
+      "display_type": "head",
+      "icon_resource": "avbuilder_faceshape",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_face_proportions_title"
+    },
+    "pupil_tone": {
+      "category_key": "pupil_tone",
+      "column_count": 4,
+      "display_type": "eye-color",
+      "icon_resource": "bottombar_colorprimary",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_pupil_tone_title"
+    },
+    "glasses": {
+      "category_key": "glasses",
+      "column_count": 4,
+      "display_type": "head",
+      "icon_resource": "bottombar_glasses",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_glasses_title"
+    },
+    "breast": {
+      "category_key": "breast",
+      "column_count": 3,
+      "display_type": "body-fixed",
+      "icon_resource": "avbuilder_chestsize",
+      "preview_display_type": "body",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_breast_title"
+    },
+    "eyelash": {
+      "category_key": "eyelash",
+      "column_count": 2,
+      "display_type": "head",
+      "icon_resource": "bottombar_eyelashes",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_eyelash_title"
+    },
+    "face_lines": {
+      "category_key": "face_lines",
+      "column_count": 2,
+      "display_type": "head",
+      "icon_resource": "bottombar_face_foreheadlines",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_face_lines_title"
+    },
+    "eye": {
+      "category_key": "eye",
+      "column_count": 3,
+      "display_type": "head",
+      "icon_resource": "bottombar_eyes",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_eye_title"
+    },
+    "skin_tone": {
+      "category_key": "skin_tone",
+      "column_count": 4,
+      "display_type": "head",
+      "icon_resource": "avbuilder_skin",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_skin_tone_title"
+    },
+    "pupil": {
+      "category_key": "pupil",
+      "column_count": 3,
+      "display_type": "head",
+      "icon_resource": "bottombar_iris_size",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_pupil_title"
+    },
+    "eye_details": {
+      "category_key": "eye_details",
+      "column_count": 2,
+      "display_type": "head",
+      "icon_resource": "avbuilder_face_eyelines",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_eye_details_title"
+    },
+    "eye_spacing": {
+      "category_key": "eye_spacing",
+      "column_count": 3,
+      "display_type": "head",
+      "icon_resource": "avbuilder_eyes_spacing",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_eye_spacing_title"
+    },
+    "eye_size": {
+      "category_key": "eye_size",
+      "column_count": 3,
+      "display_type": "head",
+      "icon_resource": "avbuilder_eye_size",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_eye_size_title"
+    },
+    "hair": {
+      "category_key": "hair",
+      "column_count": 4,
+      "display_type": "hair",
+      "icon_resource": "bottombar_hair_male",
+      "female_icon_resource": "bottombar_hair_female",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_hair_title"
+    },
+    "earring": {
+      "category_key": "earring",
+      "column_count": 3,
+      "display_type": "head",
+      "icon_resource": "bottombar_piercings",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_earring_title"
+    },
+    "likeness": {
+      "category_key": "likeness",
+      "column_count": 1,
+      "display_type": "head",
+      "icon_resource": "bottombar_likenessmenu",
+      "preview_display_type": "head",
+      "rotation": 1,
+      "title_string_resource": ""
+    },
+    "outfit": {
+      "category_key": "outfit",
+      "column_count": 3,
+      "display_type": "body-fixed",
+      "icon_resource": "bottombar_fashion_male",
+      "preview_display_type": "body",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_outfit_title"
+    },
+    "body": {
+      "category_key": "body",
+      "column_count": 5,
+      "display_type": "body-fixed",
+      "icon_resource": "bottombar_bodytype",
+      "preview_display_type": "body",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_build_title"
+    },
+    "hair_tone": {
+      "category_key": "hair_tone",
+      "column_count": 4,
+      "display_type": "hair",
+      "icon_resource": "bottombar_colorprimary",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_hair_tone_title"
+    },
+    "hair_treatment_tone": {
+      "category_key": "hair_treatment_tone",
+      "column_count": 4,
+      "display_type": "hair",
+      "icon_resource": "bottombar_colorsecondary",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_hair_treatment_tone_title"
+    },
+    "jaw": {
+      "category_key": "jaw",
+      "column_count": 4,
+      "display_type": "head",
+      "icon_resource": "bottombar_jaw",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_jaw_title"
+    },
+    "nose": {
+      "category_key": "nose",
+      "column_count": 3,
+      "display_type": "head",
+      "icon_resource": "bottombar_nose",
+      "preview_display_type": "head",
+      "rotation": 1,
+      "title_string_resource": "avatar_builder_nose_title"
+    },
+    "beard_tone": {
+      "category_key": "beard_tone",
+      "column_count": 4,
+      "display_type": "head",
+      "icon_resource": "bottombar_colorprimary",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_beard_color_title"
+    },
+    "ear": {
+      "category_key": "ear",
+      "column_count": 3,
+      "display_type": "head",
+      "icon_resource": "bottombar_ears",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_ear_title"
+    },
+    "lipstick_tone": {
+      "category_key": "lipstick_tone",
+      "column_count": 5,
+      "display_type": "makeup",
+      "icon_resource": "bottombar_makeup_lipstick",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_lipstick_title",
+      "background_color": "#28282E",
+      "title_color": "#CED4DA"
+    },
+    "cheek_details": {
+      "category_key": "cheek_details",
+      "column_count": 2,
+      "display_type": "head",
+      "icon_resource": "avbuilder_face_cheeklines",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_cheek_details_title"
+    },
+    "mouth": {
+      "category_key": "mouth",
+      "column_count": 3,
+      "display_type": "mouth",
+      "icon_resource": "bottombar_lips_male",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_mouth_title"
+    },
+    "save": {
+      "category_key": "save",
+      "column_count": 1,
+      "display_type": "body-fixed",
+      "icon_resource": "bottombar_save",
+      "preview_display_type": "body",
+      "rotation": 1,
+      "title_string_resource": "avatar_builder_looking_good"
+    },
+    "hat": {
+      "category_key": "hat",
+      "column_count": 4,
+      "display_type": "head",
+      "icon_resource": "bottombar_headwear",
+      "preview_display_type": "head",
+      "rotation": 0,
+      "title_string_resource": "avatar_builder_headwear_title"
+    }
+  }
+}

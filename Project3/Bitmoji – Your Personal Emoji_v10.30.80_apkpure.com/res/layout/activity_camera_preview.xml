@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar" />
+    <RelativeLayout android:id="@id/camera_preview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/toolbar" />
+    <View android:id="@id/above_face_outline" android:background="@color/grey_65_percent_alpha" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/face_outline_wrapper" android:layout_below="@id/toolbar" />
+    <View android:id="@id/below_face_outline" android:background="@color/grey_65_percent_alpha" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/face_outline_wrapper" />
+    <RelativeLayout android:id="@id/face_outline_wrapper" android:layout_width="fill_parent" android:layout_height="346.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <View android:id="@id/left_of_face_outline" android:background="@color/grey_65_percent_alpha" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/face_outline" />
+        <ImageView android:id="@id/face_outline" android:background="@null" android:layout_width="258.5dip" android:layout_height="fill_parent" android:src="@drawable/capture_outline" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+        <View android:id="@id/right_of_face_outline" android:background="@color/grey_65_percent_alpha" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/face_outline" />
+    </RelativeLayout>
+    <ImageView android:id="@id/button_capture" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/capture_button" android:scaleType="centerCrop" android:cropToPadding="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

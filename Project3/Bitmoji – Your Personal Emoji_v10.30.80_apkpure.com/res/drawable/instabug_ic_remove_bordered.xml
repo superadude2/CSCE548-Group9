@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="2.0dip" android:bottom="2.0dip">
+        <shape android:shape="oval">
+            <solid android:color="#ff333333" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#ffffffff" />
+            <stroke android:width="1.0dip" android:color="#ffffffff" android:dashGap="0.0dip" />
+        </shape>
+    </item>
+    <item>
+        <bitmap android:src="@drawable/instabug_ic_remove" />
+    </item>
+</layer-list>

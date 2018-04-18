@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/change_style_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/top_title_bar" android:layout_width="fill_parent" android:layout_height="@dimen/style_picker_top_bar_height">
+        <ImageView android:id="@id/exit_button" android:layout_width="@dimen/style_picker_exit_button_width" android:layout_height="@dimen/style_picker_exit_button_height" android:layout_marginTop="@dimen/style_picker_exit_button_top_margin" android:src="@drawable/previous" android:layout_marginStart="@dimen/style_picker_exit_button_start_margin" />
+        <com.bitstrips.imoji.ui.views.BmTextView android:textSize="@dimen/style_picker_title_text_size" android:textStyle="bold" android:textColor="@color/style_change_indicator_white" android:gravity="center" android:id="@id/title_bar_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/top_bar_change_style" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/top_title_bar">
+        <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <android.support.v4.view.ViewPager android:id="@id/style_pager" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/style_picker_pager_height_default" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="6.0">
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="23.0" />
+            <com.bitstrips.imoji.ui.views.BmTextView android:textSize="@dimen/style_picker_style_type_text_size" android:textStyle="bold" android:textColor="@color/style_change_indicator_white" android:gravity="center" android:id="@id/style_type_text" android:layout_width="fill_parent" android:layout_height="@dimen/style_picker_style_type_text_height" android:shadowColor="@color/style_change_text_shadow" android:shadowDx="0.0" android:shadowDy="0.5" android:shadowRadius="2.0" />
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="8.0" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/circle_indicators" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="34.0" />
+            <com.bitstrips.imoji.ui.views.BmButton android:enabled="true" android:id="@id/use_style_button" android:layout_width="fill_parent" android:layout_height="@dimen/style_picker_button_height" android:layout_marginLeft="@dimen/style_picker_button_margin" android:layout_marginRight="@dimen/style_picker_button_margin" android:text="@string/style_picker_use_style" style="@style/ChangeStyleButton" />
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="35.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

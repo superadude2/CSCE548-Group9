@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="invite_dialog_options">
+        <item>Send Invite via Email</item>
+        <item>Send Invite via SMS</item>
+        <item>Copy Invite Link</item>
+    </string-array>
+    <string-array name="floater_whitelist">
+        <item>com.android.mms</item>
+        <item>com.google.android.talk</item>
+        <item>com.whatsapp</item>
+        <item>kik.android</item>
+        <item>com.bbm</item>
+        <item>com.tencent.mm</item>
+        <item>jp.naver.line.android</item>
+        <item>org.telegram.messenger</item>
+        <item>com.skype.raider</item>
+    </string-array>
+    <string-array name="high_priority_share_apps">
+        <item>com.google.android.talk</item>
+        <item>com.whatsapp</item>
+        <item>com.facebook.orca</item>
+        <item>kik.android</item>
+        <item>jp.naver.line.android</item>
+        <item>com.tencent.mm</item>
+        <item>com.bbm</item>
+        <item>org.telegram.messenger</item>
+        <item>com.skype.raider</item>
+        <item>com.hipchat</item>
+        <item>com.kakao.talk</item>
+        <item>com.Slack</item>
+        <item>com.viber.voip</item>
+        <item>com.gogii.textplus</item>
+        <item>com.sgiggle.production</item>
+        <item>com.tencent.mobileqqi</item>
+        <item>com.android.mms</item>
+        <item>com.google.android.gm</item>
+        <item>com.outlook.Z7</item>
+        <item>com.yahoo.mobile.client.android.mail</item>
+        <item>com.tumblr</item>
+        <item>com.twitter.android</item>
+        <item>com.instagram.android</item>
+        <item>com.facebook.katana</item>
+        <item>com.sina.weibo</item>
+    </string-array>
+    <string-array name="invite_priority_apps">
+        <item>com.google.android.talk</item>
+        <item>com.whatsapp</item>
+    </string-array>
+    <string-array name="popular_imojies_template_ids_pref">
+        <item>3171</item>
+        <item>3140</item>
+        <item>3173</item>
+        <item>3565</item>
+        <item>3597</item>
+        <item>3180</item>
+        <item>3960</item>
+        <item>3442</item>
+        <item>3852</item>
+        <item>3834</item>
+        <item>3855</item>
+        <item>3323</item>
+    </string-array>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/category_go_previous" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
+        <ImageView android:layout_gravity="center|left" android:id="@id/previous_arrow_image_view" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/attribute_prev_arrow" android:tint="@color/avatar_builder_category_arrow_color" />
+    </FrameLayout>
+    <com.bitstrips.imoji.ui.views.BmTextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/avatar_builder_category_title_text_color" android:id="@id/category_title" android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:textAllCaps="true" />
+    <com.bitstrips.imoji.ui.views.BmTextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/avatar_builder_category_title_text_color" android:id="@id/next_category_title" android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:textAllCaps="true" />
+    <FrameLayout android:id="@id/category_go_next" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <ImageView android:layout_gravity="center|right" android:id="@id/next_arrow_image_view" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/attribute_next_arrow" android:tint="@color/avatar_builder_category_arrow_color" />
+    </FrameLayout>
+</RelativeLayout>

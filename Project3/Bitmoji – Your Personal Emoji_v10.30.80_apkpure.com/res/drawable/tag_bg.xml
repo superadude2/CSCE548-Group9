@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/white" />
+    <stroke android:width="@dimen/searchTag_bg_stroke" android:color="@color/light_gray_tags_border" />
+    <padding android:left="@dimen/searchTag_bg_stroke" android:top="@dimen/searchTag_bg_stroke" android:right="@dimen/searchTag_bg_stroke" android:bottom="@dimen/searchTag_bg_stroke" />
+    <corners android:topLeftRadius="@dimen/searchTag_card_radius" android:topRightRadius="@dimen/searchTag_card_radius" android:bottomLeftRadius="@dimen/searchTag_card_radius" android:bottomRightRadius="@dimen/searchTag_card_radius" />
+</shape>

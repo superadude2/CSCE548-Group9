@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/keyboard_sunset" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/keyboardHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="3.0">
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/keyboard_gboard_logo_width" android:layout_height="@dimen/keyboard_gboard_logo_height" android:src="@drawable/gboard_pin" />
+        <com.bitstrips.imoji.ui.views.BmTextView android:textSize="@dimen/keyboard_sunset_title_font_size" android:textStyle="bold" android:textColor="@android:color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/keyboard_sunset_title_margins" android:text="@string/gboard_onboarding_intro_title" custom:fontWeight="bolder" />
+        <com.bitstrips.imoji.ui.views.BmTextView android:textSize="@dimen/keyboard_sunset_desc_font_size" android:textColor="@color/white_80_percent" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/keyboard_sunset_desc_horizontal_margin" android:layout_marginRight="@dimen/keyboard_sunset_desc_horizontal_margin" android:text="@string/keyboard_sunset_desc" />
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.bitstrips.imoji.ui.views.BmButton android:id="@id/keyboard_sunset_gboard_button" android:text="@string/keyboard_get_gboard" android:drawableStart="@drawable/googleplay" style="@style/KeyboardSunsetButton" />
+        <com.bitstrips.imoji.ui.views.BmButton android:id="@id/keyboard_sunset_onboarding_button" android:visibility="gone" android:text="@string/keyboard_show_me_how" style="@style/KeyboardSunsetButton" />
+    </LinearLayout>
+    <com.bitstrips.imoji.ui.views.BmButton android:textColor="@color/black_30_percent" android:layout_gravity="end" android:id="@id/keyboard_sunset_switch_button" android:padding="@dimen/keyboard_sunset_switch_icon_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/keyboard_later" />
+</FrameLayout>

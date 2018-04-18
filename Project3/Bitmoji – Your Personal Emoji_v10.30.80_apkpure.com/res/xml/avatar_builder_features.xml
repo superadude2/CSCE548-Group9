@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/avatar_builder_title">
+        <CheckBoxPreference android:title="@string/enable_cm_save_title" android:key="@string/enable_cm_save_prod" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/cm_default_title" android:key="@string/cm_default" android:defaultValue="true" />
+        <Preference android:title="@string/launch_abv3_test_mode" android:key="@string/abv3_launch_test" />
+        <CheckBoxPreference android:title="@string/enable_abv3_svg_preview_title" android:key="@string/abv3_svg_preview" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/abv3_preload_adjacent_title" android:key="@string/abv3_preload_adjacent" android:defaultValue="false" />
+        <EditTextPreference android:title="@string/mirror_save_ratio" android:key="@string/mirror_save_ratio_key" android:defaultValue="-1" />
+        <CheckBoxPreference android:title="@string/mirror_geo_ip_override" android:key="@string/mirror_geo_ip_override_key" android:defaultValue="false" />
+        <EditTextPreference android:title="@string/face_recognition_enable_ratio" android:key="@string/face_recognition_enable_ratio_key" android:defaultValue="-1" />
+        <CheckBoxPreference android:title="@string/bigger_selfie_enable" android:key="@string/bigger_selfie_enable_key" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/filter_abv3_options_traits" android:key="@string/abv3_filter_option_traits" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/full_screen_upgrade_teaser_enabled" android:key="@string/upgrade_teaser_enabled_key" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>
