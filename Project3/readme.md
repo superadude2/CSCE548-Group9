@@ -4,6 +4,6 @@ Andrew Cox - Helped select Android App for attack; Inserted "MaliciousCode.smali
 
 Sebastian Martin – Helped select Android App for attack; Unpackage and Repackaged apk; Answered Questions #1 and 2;
 
-Joy Ray – 
+Joy Ray – Wrote the observations of the lab for the lab report.
 
 Xiyuan Zheng - 
