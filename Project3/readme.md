@@ -6,4 +6,4 @@ Sebastian Martin – Helped select Android App for attack; Unpackage and Repacka
 
 Joy Ray – Wrote the observations of the lab for the lab report.
 
-Xiyuan Zheng - 
+Xiyuan Zheng - Completed and ran all tasks.
